@@ -14,7 +14,7 @@ header {
 #brand_image_container {
   border-top: 5px solid #897435;
   height: 85px;
-  background: url(images/brand-image-background.png);
+  background: url(/images/brand-image-background.png);
   background-color: #F6CA3B;
   background-repeat: repeat-x;
 }
@@ -108,19 +108,19 @@ main {
 }
 
 .col1-4 .column-image-container {
-  background-image: url(images/beekeeper.jpg);
+  background-image: url(/images/beekeeper.jpg);
 }
 
 .col2-4 .column-image-container {
-  background-image: url(images/team-work.jpg);
+  background-image: url(/images/team-work.jpg);
 }
 
 .col3-4 .column-image-container {
-  background-image: url(images/flower.jpg);
+  background-image: url(/images/flower.jpg);
 }
 
 .col4-4 .column-image-container {
-  background-image: url(images/swarm.jpg);
+  background-image: url(/images/swarm.jpg);
 }
 
 .col1-4 .column-image-container,
