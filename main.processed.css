@@ -14,7 +14,7 @@ header {
 #brand_image_container {
   border-top: 5px solid #897435;
   height: 85px;
-  background: url(brand-image-background.png);
+  background: url(images/brand-image-background.png);
   background-color: #F6CA3B;
   background-repeat: repeat-x;
 }
