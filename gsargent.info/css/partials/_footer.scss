@@ -1,0 +1,40 @@
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: $footer-background-color;
+  padding: 50px;
+  font-size: 14px;
+  color: $footer-text-color;
+}
+
+#footer-left-column {
+  width: 50vh;
+  flex-grow: 1;
+}
+
+#footer-right-column {
+  width: 50vh;
+    text-align: right;
+    flex-grow: 1;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  li {
+    display: flex;
+    margin: 0 0 0 10px;
+  }
+
+  a, a:visited {
+    color: $footer-link-color;
+    text-decoration: none;
+  }
+
+  a, a:hover {
+    color: $footer-link-color-hover;
+    text-decoration: none;
+  }
+}

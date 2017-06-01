@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <title>Page Template | Greg Sargent - UX/UI Designer</title>
+    <title>Greg Sargent - UX/UI Designer</title>
     <meta name="description" content="Greg is a UX/UI Designer in the north Dallas area. Specializing in minimal modern design, Greg is currently working in the FinTech industry designing personal financial management tools at Alkami.">
     <?php // This php pulls in head.php to create the meta and links
     include $_SERVER['DOCUMENT_ROOT'].'/modules/head.php'; ?>

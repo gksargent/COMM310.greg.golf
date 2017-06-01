@@ -1,0 +1,42 @@
+nav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  background-color: $navigation-background-color;
+  box-shadow: $standard-box-shadow;
+
+  .brandMark {
+    font-size: 18px;
+    margin-right: 50px;
+
+    a {
+      color: $brand-mark-text-color;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+
+    li {
+      padding: 10px 20px 8px 0;
+
+      a, a:visited {
+        text-decoration: none;
+        color: $navigation-link-color;
+        transition: color 200ms;
+      }
+
+      a:hover {
+        color: $navigation-link-color-hover;
+      }
+
+      a:active {
+        color: $navigation-link-color-active;
+      }
+    }
+  }
+}
