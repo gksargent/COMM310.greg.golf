@@ -58,6 +58,9 @@ nav {
       nav ul li a:active {
         color: orangered; }
 
+.active {
+  border-bottom: solid 2px orangered; }
+
 #banner {
   margin-top: 50px;
   padding: 10%;
